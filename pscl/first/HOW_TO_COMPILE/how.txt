@@ -1,0 +1,6 @@
+fpc hello.pas
+ls
+hello
+hello.o
+hello.pas
+how.txt

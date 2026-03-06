@@ -1,0 +1,4 @@
+121
+cat in.txt | ./sqr > out.txt
+9
+echo 3 | ./sqr >> out.txt

@@ -1,0 +1,13 @@
+program rep;
+
+var
+	x: integer;
+
+begin
+	writeln('the number shoud be between 1900 and 2025');
+	repeat
+		read(x)
+	until (x > 1900) and (x < 2025);
+	writeln('number is in')
+end.
+

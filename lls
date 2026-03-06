@@ -1,0 +1,167 @@
+    1  ping google.com
+    2  clear
+    3  nslookup google.com
+    4  clear
+    5  ip route show
+    6  clear
+    7  ip addr show
+    8  ip addr show | grep inet
+    9  clerar
+   10  clear
+   11  apt-get git
+   12  apt get git
+   13  clear
+   14  apt git
+   15  apt get 'git'
+   16  clear
+   17  apt get 
+   18  clear
+   19  apt-get install git
+   20  sudo apt-get install git
+   21  clear
+   22  apt-get install git
+   23  clear
+   24  apt-get install git
+   25  sudo apt-get install git
+   26  clear
+   27  ls
+   28  clear
+   29  ll
+   30  clear
+   31  git --version
+   32  clear
+   33  sudo
+   34  sudo apt install tmux
+   35  clear
+   36  cleawr
+   37  clear
+   38  ls
+   39  clear
+   40  mkdir main
+   41  cd main/
+   42  ls
+   43  clear
+   44  cd ..
+   45  rm -r main/
+   46  clear
+   47  ls
+   48  clear
+   49  mkdir
+   50  mkdir setup
+   51  clear
+   52  rm -rf setup/
+   53  vim setup
+   54  apt-get install vim
+   55  sudo apt-get install vim
+   56  clear
+   57  ls
+   58  vim setup
+   59  vim ~/.vimrc
+   60  source ~/.vimrc 
+   61  vim ~/.vimrc 
+   62  source ~/.vimrc 
+   63  vim ~/.vimrc 
+   64  clear
+   65  source ~/.vimrc 
+   66  clear
+   67  source ~/.vimrc 
+   68  vim ~/.vimrc 
+   69  source ~/.vimrc 
+   70  vim ~/.vimrc 
+   71  clear
+   72  source ~/.vimrc 
+   73  clear
+   74  vim setup
+   75  vim ~/.vimrc 
+   76  source ~/.vimrc 
+   77  claer
+   78  clear
+   79  vim setup 
+   80  clear
+   81  vim ~/.tmux.conf
+   82  source ~/.tmux.conf 
+   83  clear
+   84  source ~/.tmux.conf 
+   85  vim ~/.tmux.conf
+   86  source ~/.tmux.conf 
+   87  vim ~/.tmux.conf
+   88  source ~/.tmux.conf
+   89  vim ~/.tmux.conf
+   90  clear
+   91  cat ~/.tmux.conf 
+   92  source ~/.tmux.conf 
+   93  clear
+   94  source .tmux.conf 
+   95  clear
+   96  tmux versijn
+   97  tmux 
+   98  clear
+   99  tmux list
+  100  tmux -l
+  101  clear
+  102  vim setup 
+  103  ls
+  104  clear
+  105  vim setup 
+  106  mv setup ~/Desktop/setup
+  107  clear
+  108  ls
+  109  cd Desktop/
+  110  ls
+  111  clear
+  112  pacman -Q iptables
+  113  apt-get -Q iptables
+  114  apt-get iptables
+  115  apt-get install iptables
+  116  sudo su
+  117  ls
+  118  cd Desktop/
+  119  ls
+  120  clear
+  121  cd
+  122  mv Desktop/setup setup
+  123  clear
+  124  ls
+  125  cat setup 
+  126  claer
+  127  clear
+  128  cat setup 
+  129  clear
+  130  vim setup 
+  131  clear
+  132  vim setup 
+  133  clear
+  134  clea
+  135  rclear
+  136  clear
+  137  sudo su
+  138  exit
+  139  ls
+  140  vim setup 
+  141  tmux
+  142  cat ~/.tmux.conf 
+  143  source ~/.tmux.conf 
+  144  go run main.go 
+  145  [A
+  146  go run main.go 
+  147  clear
+  148  go run main.go 
+  149  go run main.go clear
+  150  clear
+  151  go run main.go clear
+  152  go run main.go
+  153  clear
+  154  go run main.go
+  155  clear
+  156  go run main.go
+  157  clear
+  158  cd
+  159  ls
+  160  mkdir new
+  161  touch new/main
+  162  cat new/main 
+  163  history | less
+  164  less
+  165  ls | less
+  166  clear
+  167  history | less
