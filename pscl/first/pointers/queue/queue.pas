@@ -27,6 +27,17 @@ var
 
 // quueue interface 
 
+procedure Init(var q : queueptr; var n: nodeptr);
+begin
+	new(q);
+	new(n);
+end;
+
+function IsEmpty(var q : queueptr) : boolean;
+begin
+	IsEmpty := q^.tail = nil;
+end;
+
 procedure Put(var q : queueptr; var n: nodeptr; val : integer);
 begin
 	prev := q^.tail; 
@@ -42,27 +53,32 @@ begin
 
 end;
 
-
 procedure Pop(var q : queueptr; var n: nodeptr; var val : integer);
 begin
-	val := q^.head^.data;
+	if not IsEmpty(q) then
+	begin
+		val := q^.head^.data;
 
-	q^.head := q^.head^.next;
-	q^.head^.next := nil
+		q^.head := q^.head^.next;
+		q^.head^.next := nil
+	end
 end;
 
 
 
 begin
-	new(q);
-	new(n);
+	Init(q, n);
+	
+	Pop(q, n, val);
+	writeln('this is poped val: ', val);
+
 	Put(q, n, 1);
 	Put(q, n, 34);
 	Put(q, n, 23);
 	
 	
-	Pop(q, n, val);
 
+	Pop(q, n, val);
 
 
 	writeln('this is poped val: ', val);
